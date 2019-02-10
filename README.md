@@ -12,7 +12,16 @@
 
 
 ## Nova event-sourcing actions
-TBD
+While we admire using Nova for it's simplicity and powerful features, we decided to build one of our internal product using ES/CQRS. This experment aims to bridge the gap between Nova CRUD operation and ES/CQRS principles.
+
+### Outcomes
+We decided to hide the internal CRUD operations, and replace them with Custom Actions, we extended the current Nova action so it can be Mapped to Events so we can save them in our Events store. Think of Nova Actions as your CQRS Commands.
+
+### Next steps
+1. Deliver default CUD implementation
+1. Customize the Nova UI to support custom actions
+1. Customize the Nova UI to support custom creation actions.
+1. Make sure that Nova projection can re-create the current state.
 
 ## Stress and Perfomance testing
 TBD
