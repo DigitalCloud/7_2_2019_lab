@@ -23,6 +23,7 @@ Code generation, GraphQL Playground and docs, Dynamic data and relation selectio
 1. Test GraphQL auth flow, file uploads, and authrization
 1. Learn from Node.js experiance and move it to PHP/Laravel
 1. Keep eyes on the iOS sybscription issue
+1. Test Prisma against complex queries.
 
 ## Nova event-sourcing actions
 While we admire using Nova for it's simplicity and powerful features, we decided to build one of our internal product using ES/CQRS. This experment aims to bridge the gap between Nova CRUD operation and ES/CQRS principles.
@@ -35,7 +36,6 @@ We decided to hide the internal CRUD operations, and replace them with Custom Ac
 1. Customize the Nova UI to support custom actions.
 1. Customize the Nova UI to support custom creation actions.
 1. Make sure that Nova projection can re-create the current state.
-1. Test Prisma against complex queries.
 
 ## Stress and Perfomance testing
 TBD
